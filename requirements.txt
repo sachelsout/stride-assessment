@@ -1,4 +1,3 @@
-logging
 streamlit
 pdfplumber
 tabula-py
