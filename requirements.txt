@@ -1,5 +1,4 @@
 streamlit
 pdfplumber
 tabula-py
-json
 nltk
