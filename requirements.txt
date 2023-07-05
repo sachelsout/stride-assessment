@@ -3,4 +3,3 @@ pdfplumber
 tabula-py
 json
 nltk
-json
