@@ -1,6 +1,8 @@
 import logging
 import os
 import nltk
+
+# nltk files download
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
@@ -21,10 +23,6 @@ class text_process_class:
         d) Counts the frequency of each named entity in the text.
 
         Package named nltk is used for performing text processing.
-        NOTE - might face problem in downloading nltk.download('punkt'), nltk.download('averaged_perceptron_tagger'),
-        nltk.download('maxent_ne_chunker'), nltk.download('words'). Simply open terminal and type python (or python3 or py, depending
-        upon your python installation) and type 'import nltk' and enter. Then enter nltk.download('punkt'). It will download the required
-        nltk files. Do the same for remaining.
 
         LOG_FILE_PATH - the path for log file where logs will be stored
         paths set for different operating systems, so that the code can work for different OS.
